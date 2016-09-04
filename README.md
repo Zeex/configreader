@@ -34,6 +34,7 @@ See [this file][example] for some examples of using ConfigReader.
 License
 -------
 
+```
 Copyright (c) 2016 Zeex
 All rights reserved.
 
@@ -57,6 +58,7 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+```
 
 [example]: https://github.com/Zeex/configreader/blob/master/configreader_tests.cpp
 [build]: https://travis-ci.org/Zeex/configreader

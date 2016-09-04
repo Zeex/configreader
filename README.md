@@ -3,7 +3,7 @@
 [![Build Status][build_status]][build]
 [![Build Status - Windows][build_status_win]][build_win]
 
-A small library to read space-separated key-value config values like this:
+A small library to read space-separated key-value configuration files like this:
 
 ```
 int_var 1

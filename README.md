@@ -1,5 +1,9 @@
 # Config Reader
 
+[![Build Status][build_status]][build]
+[![Build Status - Windows][build_status_win]][build_win]
+https://ci.appveyor.com/api/projects/status/4msd2wh1qihitiy4?svg=true
+
 A small library to read space-separated key-value config values like this:
 
 ```
@@ -26,7 +30,7 @@ Or you can simply drop `configreader.h` and `configreader.cpp` in your project.
 Usage
 -----
 
-See [this file](https://github.com/Zeex/configreader/blob/master/configreader_tests.cpp) for some examples of using ConfigReader.
+See [this file][example] for some examples of using ConfigReader.
 
 License
 -------
@@ -54,3 +58,9 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+
+[example]: https://github.com/Zeex/configreader/blob/master/configreader_tests.cpp
+[build]: https://travis-ci.org/Zeex/configreader
+[build_status]: https://travis-ci.org/Zeex/configreader.svg?branch=master
+[build_win]: https://ci.appveyor.com/project/Zeex/configreader/branch/master
+[build_status_win]: https://ci.appveyor.com/api/projects/status/4msd2wh1qihitiy4?svg=true
